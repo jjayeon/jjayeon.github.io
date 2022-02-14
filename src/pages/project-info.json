@@ -21,7 +21,7 @@
         "title": "Korean Number Practice",
         "desc": "A webpage for practicing your Korean number skills.",
         "long_desc": "You will see two numbers written in Korean --- enter their sum in the box below.  If you're correct, you'll get a new problem automatically.  The internals of the project involve a lot of hacking with React state; I've learned from this project that React is not great for game development.",
-        "img": "https://raw.githubusercontent.com/jjayeon/korean-number-practice/master/korean%20number%20practice.png",
+        "img": "https://raw.githubusercontent.com/jjayeon/korean-number-practice-2/master/korean%20number%20practice.png",
         "url": "https://korean-number-practice.netlify.app",
         "giturl": "https://github.com/jjayeon/korean-number-practice-2"
     },
