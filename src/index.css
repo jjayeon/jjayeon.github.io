@@ -19,11 +19,6 @@ h1 {
 	top: 10px;
 }
 
-#about {
-	margin: auto;
-	max-width: 1000px;
-}
-
 img {
     opacity: 0.6;
     max-width: 200px;
@@ -31,6 +26,23 @@ img {
     border-radius: 10px;
 }
 img:hover {opacity: 1;}
+#about {
+	position: relative;
+}
+#about p {
+	margin: auto;
+	max-width: 1000px;
+}
+
+#about h3 {
+	text-align: center;
+}
+
+#about img {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
 
 #top, #bottom {
 	position: fixed;
