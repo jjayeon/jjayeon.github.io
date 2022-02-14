@@ -14,14 +14,30 @@ function Index() {
     let projects = [];
     for (let id in info) {
         projects.push(
-            <li key={id}>
-                <Link to={id}>{info[id].title}</Link>
-            </li>
+            <ProjectLink
+                key={id}
+                to={id}
+                title={info[id].title}
+                img={info[id].img}
+                desc={info[id].desc}
+            />
         );
     }
+    return <div>{projects}</div>;
+}
+
+function ProjectLink(props) {
     return (
         <div>
-            <ul>{projects}</ul>
+            <h3>
+                <Link to={props.to}>{props.title}</Link>
+            </h3>
+            {props.img !== undefined && (
+                <Link to={props.to}>
+                    <img src={props.img} alt="demo of project" />
+                </Link>
+            )}
+            <p>{props.desc}</p>
         </div>
     );
 }
@@ -29,23 +45,19 @@ function Index() {
 function Project() {
     let params = useParams();
     let project = info[params.id];
-    let iframe = "";
-    if (project.url !== undefined) {
-        iframe = (
-            <iframe
-                title={params.id}
-                src={project.url}
-                width="100%"
-                height="600"
-                frameborder="0"
-                scrolling="no"
-            />
-        );
-    }
     return (
         <div>
             <h2>{project.title}</h2>
-            {iframe}
+            {project.url && (
+                <iframe
+                    title={params.id}
+                    src={project.url}
+                    width="100%"
+                    height="600"
+                    frameBorder="0"
+                    scrolling="no"
+                />
+            )}
             <p>{project.long_desc}</p>
             <a href={project.giturl}>Source</a> |{" "}
             <Link to="/projects">See all projects</Link>

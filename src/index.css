@@ -9,6 +9,11 @@ body {
 	padding-bottom: 100px;
 }
 
+a {color: #ccc; text-decoration: none;}
+a:hover {color: #888;}
+
+p {text-indent: 1em;}
+
 h1 {
 	text-align: center;
 	font-size: 2em;
@@ -17,7 +22,6 @@ h1 {
 }
 
 #top, #bottom {
-	list-style-type: none;
 	position: fixed;
     left: 0;
     right: 0;
@@ -37,6 +41,3 @@ h1 {
 	padding: 10px;
 }
 #bottom li {float: right;}
-
-a {color: #ccc; text-decoration: none;}
-a:hover {color: #888;}
