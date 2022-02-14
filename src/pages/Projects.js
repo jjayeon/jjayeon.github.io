@@ -32,12 +32,14 @@ function ProjectLink(props) {
             <h3>
                 <Link to={props.to}>{props.title}</Link>
             </h3>
-            {props.img !== undefined && (
-                <Link to={props.to}>
-                    <img src={props.img} alt="demo of project" />
-                </Link>
-            )}
-            <p>{props.desc}</p>
+            <ul>
+                {props.img !== undefined && (
+                    <Link to={props.to}>
+                        <img src={props.img} alt="demo of project" />
+                    </Link>
+                )}
+                <p>{props.desc}</p>
+            </ul>
         </div>
     );
 }

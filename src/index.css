@@ -12,8 +12,6 @@ body {
 a {color: #ccc; text-decoration: none;}
 a:hover {color: #888;}
 
-p {text-indent: 1em;}
-
 h1 {
 	text-align: center;
 	font-size: 2em;
@@ -21,12 +19,20 @@ h1 {
 	top: 10px;
 }
 
+img {
+    opacity: 0.6;
+    max-width: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+img:hover {opacity: 1;}
+
 #top, #bottom {
 	position: fixed;
+	z-index: 10;
     left: 0;
     right: 0;
     margin: 0;
-    overflow: hidden;
     background: #050505;
 }
 

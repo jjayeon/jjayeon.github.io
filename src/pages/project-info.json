@@ -3,7 +3,7 @@
         "title": "Bullet Hell JS",
         "desc": "A bullet hell shooter written in pure Javascript.",
         "long_desc": "write some copy",
-        "img": "insert url here",
+        "img": "https://raw.githubusercontent.com/jjayeon/bullet-hell-js/master/bullet hell js.png",
         "url": "https://bullet-hell-js.netlify.app/",
         "giturl": "https://github.com/jjayeon/bullet-hell-js"
     },
@@ -12,7 +12,7 @@
         "title": "Uncross the Lines",
         "desc": "write some copy",
         "long_desc": "A unique implementation of the \"uncross the lines\" puzzle game, where you can group and move around multiple dots at once.",
-        "img": "insert url here",
+        "img": "https://raw.githubusercontent.com/jjayeon/uncross-the-lines/master/uncross%20the%20lines.png",
         "url": "https://uncrossthelines.netlify.app/",
         "giturl": "https://github.com/jjayeon/uncross-the-lines"
     },
@@ -21,7 +21,7 @@
         "title": "Korean Number Practice",
         "desc": "An app for practicing reading Korean numbers quickly and adding them together.",
         "long_desc": "An app for practicing reading Korean numbers quickly and adding them together.",
-        "img": "insert url here",
+        "img": "https://raw.githubusercontent.com/jjayeon/korean-number-practice/master/korean%20number%20practice.png",
         "url": "https://korean-number-practice.netlify.app",
         "giturl": "https://github.com/jjayeon/korean-number-practice-2"
     },
