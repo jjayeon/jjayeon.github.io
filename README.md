@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# w e b s i t e
+
+![insert cool projects here](https://raw.githubusercontent.com/jjayeon/jjayeon.github.io/main/projects.png)
+
+Homepage for jjayeon, aka Autumn Chiu.  I have some interesting projects on my GitHub, which I collect here.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

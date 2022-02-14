@@ -33,7 +33,7 @@ function BottomBar() {
             <a href="https://github.com/jjayeon">
                 <li>My GitHub</li>
             </a>
-            <a href="https://github.com/jjayeon/my-website-2">
+            <a href="https://github.com/jjayeon/jjayeon.github.io">
                 <li>Source</li>
             </a>
         </ul>
