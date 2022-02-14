@@ -4,6 +4,9 @@ export default function Layout() {
     return (
         <div>
             <TopBar />
+            <h1>
+                <Link to="/">Autumn Chiu</Link>
+            </h1>
             <Outlet />
             <BottomBar />
         </div>

@@ -1,0 +1,42 @@
+{
+    "bullet-hell-js": {
+        "title": "Bullet Hell JS",
+        "desc": "A bullet hell shooter written in pure Javascript.",
+        "long_desc": "write some copy",
+        "img": "insert url here",
+        "url": "https://bullet-hell-js.netlify.app/",
+        "giturl": "https://github.com/jjayeon/bullet-hell-js"
+    },
+
+    "uncross-the-lines": {
+        "title": "Uncross the Lines",
+        "desc": "write some copy",
+        "long_desc": "A unique implementation of the \"uncross the lines\" puzzle game, where you can group and move around multiple dots at once.",
+        "img": "insert url here",
+        "url": "https://uncrossthelines.netlify.app/",
+        "giturl": "https://github.com/jjayeon/uncross-the-lines"
+    },
+
+    "korean-number-practice": {
+        "title": "Korean Number Practice",
+        "desc": "An app for practicing reading Korean numbers quickly and adding them together.",
+        "long_desc": "An app for practicing reading Korean numbers quickly and adding them together.",
+        "img": "insert url here",
+        "url": "https://korean-number-practice.netlify.app",
+        "giturl": "https://github.com/jjayeon/korean-number-practice-2"
+    },
+
+    "input-js": {
+        "title": "Input.js",
+        "desc": "A simple Javascript library for handling mouse and keyboard input in a granular, user-agnostic way.",
+        "long_desc": "A simple Javascript library for handling mouse and keyboard input in a granular, user-agnostic way.",
+        "giturl": "https://github.com/jjayeon/inputjs"
+    },
+
+    "static-site-generator": {
+        "title": "Static Site Generator",
+        "desc": "A simple static site generator, good for rendering plain text with simple CSS backgrounds.",
+        "long_desc": "A simple static site generator, good for rendering plain text with simple CSS backgrounds.",
+        "giturl": "https://github.com/jjayeon/static-site-generator"
+    }
+}

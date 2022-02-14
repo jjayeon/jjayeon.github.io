@@ -16,7 +16,7 @@ h1 {
 	top: 10px;
 }
 
-ul {
+#top, #bottom {
 	list-style-type: none;
 	position: fixed;
     left: 0;

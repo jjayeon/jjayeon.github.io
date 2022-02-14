@@ -1,11 +1,6 @@
-import { Link } from "react-router-dom";
-
 export default function Home() {
     return (
         <div>
-            <Link to="/">
-                <h1>Autumn Chiu</h1>
-            </Link>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur vestibulum tortor sapien, sit amet porta neque
