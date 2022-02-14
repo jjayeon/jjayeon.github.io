@@ -2,7 +2,7 @@
     "bullet-hell-js": {
         "title": "Bullet Hell JS",
         "desc": "A bullet hell shooter written in pure Javascript.",
-        "long_desc": "write some copy",
+        "long_desc": "WASD to move, SPACE to shoot.  (Click inside the game to give it focus.)  A space shooter in the style of Space Invaders, created using Mainloop.js, HTML Canvas, and a whole lot of Javascript.",
         "img": "https://raw.githubusercontent.com/jjayeon/bullet-hell-js/master/bullet hell js.png",
         "url": "https://bullet-hell-js.netlify.app/",
         "giturl": "https://github.com/jjayeon/bullet-hell-js"
@@ -10,8 +10,8 @@
 
     "uncross-the-lines": {
         "title": "Uncross the Lines",
-        "desc": "write some copy",
-        "long_desc": "A unique implementation of the \"uncross the lines\" puzzle game, where you can group and move around multiple dots at once.",
+        "desc": "A math puzzle game about organizing a network of lines.",
+        "long_desc": "Click and drag the dots to move them around, and arrange them so that the lines don't cross.  Uniquely, this implementation allows for RTS-style box and shift selection: if you click and drag off of a dot, you'll draw a box that selects every dot it touches, and they can then be moved as a single unit.  You can also shift-click dots to add and remove them from your selection.",
         "img": "https://raw.githubusercontent.com/jjayeon/uncross-the-lines/master/uncross%20the%20lines.png",
         "url": "https://uncrossthelines.netlify.app/",
         "giturl": "https://github.com/jjayeon/uncross-the-lines"
@@ -19,8 +19,8 @@
 
     "korean-number-practice": {
         "title": "Korean Number Practice",
-        "desc": "An app for practicing reading Korean numbers quickly and adding them together.",
-        "long_desc": "An app for practicing reading Korean numbers quickly and adding them together.",
+        "desc": "A webpage for practicing your Korean number skills.",
+        "long_desc": "You will see two numbers written in Korean --- enter their sum in the box below.  If you're correct, you'll get a new problem automatically.  The internals of the project involve a lot of hacking with React state; I've learned from this project that React is not great for game development.",
         "img": "https://raw.githubusercontent.com/jjayeon/korean-number-practice/master/korean%20number%20practice.png",
         "url": "https://korean-number-practice.netlify.app",
         "giturl": "https://github.com/jjayeon/korean-number-practice-2"
@@ -29,14 +29,17 @@
     "input-js": {
         "title": "Input.js",
         "desc": "A simple Javascript library for handling mouse and keyboard input in a granular, user-agnostic way.",
-        "long_desc": "A simple Javascript library for handling mouse and keyboard input in a granular, user-agnostic way.",
+        "long_desc": "Click inside the demo and hit SPACE to activate it.  Following the instructions will result in a variety of CSS tricks.  This project is a kind of library/utility for anyone who wants to handle mouse and keyboard input independent of any sophisticated frameworks, with a bent towards game development.",
+        "img": "https://raw.githubusercontent.com/jjayeon/inputjs/master/inputjs.png",
+        "url": "https://input-js.netlify.app/",
         "giturl": "https://github.com/jjayeon/inputjs"
     },
 
     "static-site-generator": {
         "title": "Static Site Generator",
         "desc": "A simple static site generator, good for rendering plain text with simple CSS backgrounds.",
-        "long_desc": "A simple static site generator, good for rendering plain text with simple CSS backgrounds.",
+        "long_desc": "No demo here, but if you look at the source code, you'll see an engine that can hack a Webpack bundler to produce CSS pages loaded with the style and text of your choosing.  It's no rival to Wordpress or Wix, but it was a fun weekend project.",
+        "img": "https://raw.githubusercontent.com/jjayeon/static-site-generator/master/static%20site%20generator.png",
         "giturl": "https://github.com/jjayeon/static-site-generator"
     }
 }
