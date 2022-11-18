@@ -19,8 +19,8 @@ function TopBar() {
           <Link to="projects">
             <li>Projects</li>
           </Link>
-          <Link to="blog">
-            <li>Blog</li>
+          <Link to="tutoring">
+            <li>Tutoring</li>
           </Link>
         </ul>
     );

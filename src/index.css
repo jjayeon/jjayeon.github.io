@@ -30,7 +30,9 @@ img:hover {opacity: 1;}
     position: relative;
 }
 #about p {
+    text-align: center;
     margin: auto;
+    padding-bottom: 20px;
     max-width: 1000px;
 }
 
@@ -42,6 +44,13 @@ img:hover {opacity: 1;}
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#tutoring p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    max-width: 1200px;
 }
 
 #top, #bottom {

@@ -4,10 +4,16 @@ export default function Home() {
     return (
         <div id="about">
           <p>
-            Hi, I'm Autumn. Humanities major, self-taught programmer, and
-            avid chess player. If you're here from my resume, check out my
-            coding projects below; if you're not, how'd you get here? Shoot
-            me an email to let me know.
+            Hi, I'm Autumn. Humanities major, self-taught
+            programmer, and game aficionado.  Currently
+            playing League of Legends.
+          </p>
+          <p>
+            If you want to hire me to write code, check out my
+            Projects above.  If you want to hire me as a tutor,
+            click Tutoring right next to it.  For other
+            questions and inquiries, my email address is at
+            the bottom right, and my inbox is always open.
           </p>
           <h3>
             <Link to="projects">Projects</Link>

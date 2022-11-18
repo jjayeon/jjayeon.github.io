@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import Blog from "./pages/Blog";
+import Tutoring from "./pages/Tutoring";
 
 export default function App() {
     return (
@@ -10,7 +10,7 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="projects/*" element={<Projects />} />
-            <Route path="blog" element={<Blog />} />
+            <Route path="tutoring" element={<Tutoring />} />
           </Route>
         </Routes>
     );
