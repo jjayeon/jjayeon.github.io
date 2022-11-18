@@ -7,11 +7,11 @@ import Blog from "./pages/Blog";
 export default function App() {
     return (
         <Routes>
-            <Route path="/" element={<Layout />}>
-                <Route index element={<Home />} />
-                <Route path="projects/*" element={<Projects />} />
-                <Route path="blog" element={<Blog />} />
-            </Route>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="projects/*" element={<Projects />} />
+            <Route path="blog" element={<Blog />} />
+          </Route>
         </Routes>
     );
 }

@@ -8,9 +8,9 @@ document.title = "Autumn Chiu";
 
 ReactDOM.render(
     <React.StrictMode>
-        <HashRouter>
-            <App />
-        </HashRouter>
+      <HashRouter>
+        <App />
+      </HashRouter>
     </React.StrictMode>,
     document.getElementById("root")
 );
