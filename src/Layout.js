@@ -22,6 +22,9 @@ function TopBar() {
           <Link to="tutoring">
             <li>Tutoring</li>
           </Link>
+          <Link to="youtube">
+            <li>Youtube</li>
+          </Link>
           <Link to="about">
             <li>About</li>
           </Link>
