@@ -23,7 +23,7 @@ function Index() {
             />
         );
     }
-    return <div>{projects}</div>;
+    return <div id="projects">{projects}</div>;
 }
 
 function ProjectLink(props) {

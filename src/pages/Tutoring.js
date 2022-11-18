@@ -2,7 +2,7 @@ export default function Tutoring() {
     return (
         <div id="tutoring">
           <p>
-            Are you looking for a tutor in Computer Science, Math, Physics, or Writing?  I can help with that.  In high school, I achieved perfect scores (5/5) on the AP exams for Comp Sci A, Calculus AB, Calclus BC, Physics C-Mech, and Physics C-E&M, and an SAT score of 2300 (before they removed the writing section).  I applied and was admitted to the Cornell School of Engineering, and eventually graduated with a degree in English and Asian Studies after changing my major.
+            Are you looking for a tutor in Computer Science, Math, Physics, or Writing?  I can help with that.  In high school, I achieved perfect scores (5/5) on the AP exams for Comp Sci A, Calculus AB, Calclus BC, Physics C-Mech, and Physics C-E&M, and an SAT score of 2300 (before they removed the writing section).  I applied and was admitted to the Cornell School of Engineering, and eventually graduated with a degree in English and Asian Studies after changing my major.  (More info on that in About.)
           </p>
           <p>
             I have helped many postgraduate colleagues secure positions and grants through written applications, including one Fulbright scholar, and in the meanwhile have studied enough programming independently to secure a full-time position as a software engineer.
