@@ -14,7 +14,7 @@ export default function Tutoring() {
             My promise as a tutor is that you will not just solve the problem in front of you, but you will get a deeper insight into how to solve problems in general; my hope is that you will come away from our sessions with a different eye towards problem-solving in all kinds of domains, just as I have across several fields and experiences.
           </p>
           <p>
-            You may contact me at autumn.chiu.136 [at] gmail.com for all tutoring inquiries.
+            You may contact me at tutoring [at] autumnchiu.com for all tutoring inquiries.
           </p>
         </div>
     );

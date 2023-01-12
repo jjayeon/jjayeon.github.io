@@ -17,10 +17,7 @@ export default function About() {
             After the Fellowship, I began working for SwagUp, a merchandaise distribution startup, as a software engineer.  My stint at SwagUp lasted from March 2022 to November 2022, at which point I was unfortunately one of many software engineers to be laid off in the tech recession.  I have since been taking time to decompress, working on freelance programming and tutoring intermittently, while pursuing side interests and hobbies in my free time.
           </p>
           <p>
-            Outside of work, I am a longtime passionate gamer; I have played quite a lot of chess, Starcraft, and recently League of Legends, and I see competitive games as an outlet for my drive for intensive study and self-improvement.  I also sing and play the piano, with a bent towards jazz and improvisation.  Finally, I run a Youtube channel called Autumn Makes Games, which you can learn more about by clicking Youtube above.
-          </p>
-          <p>
-            Thanks for reading all that, and feel free to reach out to me at autumn.chiu.136 [at] gmail.com if you want to chat.  My inbox is always open.
+            Outside of work, I am a longtime passionate gamer; I have played quite a lot of chess, Starcraft, and recently League of Legends, and I see competitive games as an outlet for my drive for intensive study and self-improvement.  I also sing and play the piano, with a bent towards jazz and improvisation.  Finally, I run a Youtube channel where I produce short-form video essays, which you can learn more about by clicking Youtube above.
           </p>
         </div>
     );
