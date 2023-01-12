@@ -4,6 +4,7 @@ export default function Home() {
     return (
         <div id="home">
           <img
+            id="face"
             src="https://raw.githubusercontent.com/jjayeon/jjayeon.github.io/main/website%20pic.jpg"
             alt="I see you're an XKCD fan as well."
           />
