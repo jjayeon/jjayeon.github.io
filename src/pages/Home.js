@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <div id="home">
-          <img src="" alt="I see you're an XKCD fan as well."/>
+          <img
+            src="https://raw.githubusercontent.com/jjayeon/jjayeon.github.io/main/website%20pic.jpg"
+            alt="I see you're an XKCD fan as well."
+          />
           <p>
             Hi, I'm Autumn. Humanities major, self-taught programmer, and game aficionado.  Currently playing League of Legends.
           </p>
