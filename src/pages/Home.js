@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <div id="home">
+          <img src="" alt="I see you're an XKCD fan as well."/>
           <p>
             Hi, I'm Autumn. Humanities major, self-taught programmer, and game aficionado.  Currently playing League of Legends.
           </p>
@@ -14,8 +15,8 @@ export default function Home() {
           </h3>
           <Link to="projects">
             <img
-              src="https://raw.githubusercontent.com/jjayeon/my-website-2/main/projects.png"
-              alt="projects"
+              src="https://raw.githubusercontent.com/jjayeon/jjayeon.github.io/main/projects.png"
+              alt="This is the last Easter egg. I'm too lazy to add more."
             />
           </Link>
         </div>
