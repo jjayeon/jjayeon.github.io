@@ -19,6 +19,7 @@ function TopBar() {
         <ul id="top">
           <Link to="about"> <li>About</li> </Link>
           <Link to="programming"> <li>Programming</li> </Link>
+          <Link to="projects"> <li>Projects</li> </Link>
           <Link to="tutoring"> <li>Tutoring</li> </Link>
           <Link to="keepsake"> <li>Keepsake</li> </Link>
           <Link to="editing"> <li>Editing</li> </Link>

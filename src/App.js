@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Programming from "./Programming/Programming";
+import Projects from "./Projects/Projects";
 import Tutoring from "./Tutoring/Tutoring";
 import Keepsake from "./Keepsake/Keepsake";
 import Editing from "./Editing/Editing";
@@ -13,7 +14,8 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />}/>
-            <Route path="programming/*" element={<Programming />}/>
+            <Route path="programming" element={<Programming />}/>
+            <Route path="projects/*" element={<Projects />}/>
             <Route path="tutoring" element={<Tutoring />}/>
             <Route path="keepsake" element={<Keepsake />}/>
             <Route path="editing" element={<Editing />}/>
