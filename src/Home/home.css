@@ -1,0 +1,21 @@
+#home {
+    position: relative;
+}
+#home p {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    max-width: 1000px;
+}
+
+#home h3 {
+    text-align: center;
+}
+
+#home img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    opacity: 1;
+}

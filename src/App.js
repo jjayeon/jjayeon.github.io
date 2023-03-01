@@ -13,7 +13,7 @@ export default function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />}/>
-            <Route path="programming" element={<Programming />}/>
+            <Route path="programming/*" element={<Programming />}/>
             <Route path="tutoring" element={<Tutoring />}/>
             <Route path="keepsake" element={<Keepsake />}/>
             <Route path="editing" element={<Editing />}/>

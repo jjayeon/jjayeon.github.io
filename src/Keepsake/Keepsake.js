@@ -1,9 +1,7 @@
-import "./keepsake.css";
-
 export default function Keepsake() {
     return (
         <div>
-          <p>lorem ipsum</p>
+          <p>[EDIT] write something nice for keepsake</p>
         </div>
     );
 }

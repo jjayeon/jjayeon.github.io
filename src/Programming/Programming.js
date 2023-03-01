@@ -1,5 +1,6 @@
 import { Routes, Route, Link, useParams } from "react-router-dom";
 import info from "./project-info.json";
+import "./programming.css";
 
 export default function Programming() {
     return (
@@ -23,7 +24,10 @@ function Index() {
             />
         );
     }
-    return <div id="projects">{projects}</div>;
+    return <div id="programming">
+             <p>[EDIT] add some copy here; also business impact</p>
+             {projects}
+           </div>;
 }
 
 function ProjectLink(props) {
@@ -62,7 +66,7 @@ function Project() {
           )}
           <p>{project.long_desc}</p>
           <a href={project.giturl}>Source</a> |{" "}
-          <Link to="/projects">See all projects</Link>
+          <Link to="/programming">See all projects</Link>
         </div>
     );
 }

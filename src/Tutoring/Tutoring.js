@@ -1,6 +1,7 @@
 export default function Tutoring() {
     return (
         <div id="tutoring">
+          <p>[EDIT] break into groups by subject, focus more on impact</p>
           <p>
             Are you looking for a tutor in Computer Science, Math, Physics, or Writing?  I can help with that.  In high school, I achieved perfect scores (5/5) on the AP exams for Comp Sci A, Calculus AB, Calclus BC, Physics C-Mech, and Physics C-E&M, and an SAT score of 2300 (before they removed the writing section).  I applied and was admitted to the Cornell School of Engineering, and eventually graduated with a degree in English and Asian Studies after changing my major.  (More info on that in About.)
           </p>
