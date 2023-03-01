@@ -25,9 +25,22 @@ function Index() {
         );
     }
     return <div id="programming">
-             <p>[EDIT] add some copy here; also business impact </p>
-             <p>I have the most professional experience in <b>Javascript</b>, but I can work in any modern programming language, including <b>Go, Python, Java, C, OCaml, and Lisp.</b> I also have extensive experience with <b>Linux systems</b>, having worked exclusively in Linux environments since high school. </p>
-             {projects}
+             <p>
+               While I have a deep appreciation for computer systems and algorithms in the abstract, I still think of myself as a business-first engineer; I do my best work when I have a clear understanding of the business impact of the code and systems I design. In working with SwagUp, I've seen firsthand the fine tightrope that a successful business walks, and the tradeoffs between innovation, stability, market forces, and working-hours that are constantly being made. As such, here's a quick overview of my business impact at SwagUp.
+             </p>
+             <h3>Redeem Pages</h3>
+             <p>
+               My biggest contribution was in taking over the management of a legacy system that used <b>Wix, Typeform, and Zapier</b> to process customer information and ship orders. From a technical perspective, this work was not very impressive, since it involved so many low-code tools with no room for improvement or automation. But from a business perspective, it was vital—there were customer requests that had been queued for months when I joined, and I was the only one at the company with both the technical knowledge and grit to handle them. By the time I left, I had thoroughly documented all the mechanics of the redeem page system and trained several of my coworkers on how it works, reducing the turnaround time for a request to a day or two at most.
+             </p>
+             <h3>Cloudfront proxy server</h3>
+             <p>
+               This project was spearheaded by a senior programmer at SwagUp. Essentially, the marketing team at SwagUp wanted to iterate more quickly in making changes to the homepage, but they didn't have the technical knowledge to edit our React frontend directly. There were a variety of proposals for bridging that gap, but all of them involved a substantial engineering lift, and we wanted to choose the least disruptive solution. My role in this transition was to facilitate communication between the senior programmer and leadership; I went over the technical details with him thoroughly, got a clear understanding of the tradeoffs of the different solutions, and wrote up presentations that brought across those tradeoffs concisely and efficiently to leadership.
+             </p>
+             <h3>Shopify Management through Node</h3>
+             <p>
+               Finally, I wrote a tool that diagnosed and repaired various issues with our Shopify integration. Our system for processing Shopify orders was somewhat disorganized, and frequently we would lose track of orders that failed due to lack of stock or other errors. It was possible to retry orders manually via command-line, but it was infeasible to keep track of thousands of orders to retry by hand; so while working on Shopify-related tickets as they popped up, I also spent time studying the AWS documentation to find a way to automate the process. When the work was complete, I had turned a time-consuming, repetitive task into something that could be fixed with a single command.
+             </p>
+             <div id="projects">{projects}</div>
            </div>;
 }
 

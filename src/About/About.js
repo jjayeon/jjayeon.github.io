@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function About() {
     return (
         <div>
@@ -14,10 +16,7 @@ export default function About() {
             After graduating from Cornell in 2020, I then returned to the land of the sciences, studying programming during the pandemic years to catch up on what I had missed in university.  My studies eventually led me to an opportunity in 2021 with the <a href="https://fellowship.mlh.io">Major League Hacking Fellowship</a>, a program designed to empower students and recent graduates from non-traditional (non-CS) backgrounds in the tech field.  I was accepted into the Fellowship twice, and both times I took on a mentorship role for my younger, less experienced peers.
           </p>
           <p>
-            After the Fellowship, I began working for SwagUp, a merchandaise distribution startup, as a software engineer.  My stint at SwagUp lasted from March 2022 to November 2022, at which point I was unfortunately one of many software engineers to be laid off in the tech recession.  I have since been taking time to decompress, working on freelance projects and tutoring intermittently, while pursuing side interests and hobbies in my free time.
-          </p>
-          <p>
-            [EDIT] Outside of work, I am a longtime passionate gamer; I have played quite a lot of chess, Starcraft, and recently League of Legends, and I see competitive games as an outlet for my drive for intensive study and self-improvement.  I also sing and play the piano, with a bent towards jazz and improvisation.  Finally, I run a Youtube channel where I produce short-form video essays, which you can learn more about by clicking Youtube above.
+            After the Fellowship, I began working for SwagUp, a merchandaise distribution startup, as a software engineer.  My stint at SwagUp lasted from March 2022 to November 2022, at which point I was unfortunately one of many software engineers to be laid off in the tech recession.  I have since been taking time to decompress, focusing on creative self-expression in jazz piano and singing, as well as my work with <Link to="/keepsake">Keepsake House.</Link>
           </p>
         </div>
     );
