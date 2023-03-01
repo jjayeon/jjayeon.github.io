@@ -25,7 +25,8 @@ function Index() {
         );
     }
     return <div id="programming">
-             <p>[EDIT] add some copy here; also business impact</p>
+             <p>[EDIT] add some copy here; also business impact </p>
+             <p>I have the most professional experience in <b>Javascript</b>, but I can work in any modern programming language, including <b>Go, Python, Java, C, OCaml, and Lisp.</b> I also have extensive experience with <b>Linux systems</b>, having worked exclusively in Linux environments since high school. </p>
              {projects}
            </div>;
 }
