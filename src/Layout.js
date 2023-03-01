@@ -16,18 +16,11 @@ export default function Layout() {
 function TopBar() {
     return (
         <ul id="top">
-          <Link to="projects">
-            <li>Projects</li>
-          </Link>
-          <Link to="tutoring">
-            <li>Tutoring</li>
-          </Link>
-          <Link to="youtube">
-            <li>Youtube</li>
-          </Link>
-          <Link to="about">
-            <li>About</li>
-          </Link>
+          <Link to="about"> <li>About</li> </Link>
+          <Link to="programming"> <li>Programming</li> </Link>
+          <Link to="tutoring"> <li>Tutoring</li> </Link>
+          <Link to="keepsake"> <li>Keepsake</li> </Link>
+          <Link to="editing"> <li>Editing</li> </Link>
         </ul>
     );
 }

@@ -1,7 +1,7 @@
 import { Routes, Route, Link, useParams } from "react-router-dom";
 import info from "./project-info.json";
 
-export default function Projects() {
+export default function Programming() {
     return (
         <Routes>
           <Route index element={<Index />} />
