@@ -22,7 +22,6 @@ function TopBar() {
           <Link to="projects"> <li>Projects</li> </Link>
           <Link to="tutoring"> <li>Tutoring</li> </Link>
           <Link to="keepsake"> <li>Keepsake</li> </Link>
-          <Link to="editing"> <li>Editing</li> </Link>
         </ul>
     );
 }

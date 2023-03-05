@@ -6,7 +6,6 @@ import Programming from "./Programming/Programming";
 import Projects from "./Projects/Projects";
 import Tutoring from "./Tutoring/Tutoring";
 import Keepsake from "./Keepsake/Keepsake";
-import Editing from "./Editing/Editing";
 
 export default function App() {
     return (
@@ -18,7 +17,6 @@ export default function App() {
             <Route path="projects/*" element={<Projects />}/>
             <Route path="tutoring" element={<Tutoring />}/>
             <Route path="keepsake" element={<Keepsake />}/>
-            <Route path="editing" element={<Editing />}/>
           </Route>
         </Routes>
     );
