@@ -29,7 +29,7 @@ function TopBar() {
 function BottomBar() {
     return (
         <ul id="bottom">
-          <li>autumn.chiu.136 [at] gmail.com</li>
+          <li>hi [at] autumnchiu.com</li>
           <a href="https://github.com/jjayeon">
             <li>My GitHub</li>
           </a>
